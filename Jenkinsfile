@@ -2,19 +2,19 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Buildjen') {
             steps {
-                echo 'Build job'
+                echo 'Build  Jenkins job'
             }
         }
-        stage('Test') {
+        stage('Testjen') {
             steps {
-                echo 'Test job'
+                echo 'Test Jenlins job'
             }
         }
-        stage('Deploy') {
+        stage('Deploy jen') {
             steps {
-                echo 'Deploy job'
+                echo 'Deploy Jenkins job'
             }
         }
     }
